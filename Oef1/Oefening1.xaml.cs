@@ -25,6 +25,7 @@ namespace Oef1
         {
 
             txtResume.Text = "Firstname: " + txtFirstname.Text + "\r\nLastname: " + txtLastname.Text;
+            txtResume.Text = "Firstname: " + txtFirstname.Text + Environment.NewLine + "Lastname: " + txtLastname.Text;
         }
     }
 }
